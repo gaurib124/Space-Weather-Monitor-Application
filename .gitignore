@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Enviroment files for testing
+env/
+utils/
+
+# Distribution / packaging and Python egg metadata, generated from source files by setuptools.
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+.DS_Store
