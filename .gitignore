@@ -1,16 +1,32 @@
-# Byte-compiled / optimized / DLL files
+# Python bytecode & cache
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
+*.pyd
 
-# Enviroment files for testing
+# Environment & virtualenvs
+venv/
+.env
 env/
-utils/
+.venv/
 
-# Distribution / packaging and Python egg metadata, generated from source files by setuptools.
+# Build / distribution
 build/
 dist/
 *.egg-info/
 *.egg
 .eggs/
 
+# Testing utilities (if any)
+utils/
+
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
